@@ -1,0 +1,116 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    color: #f3f3f3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(27, 27, 50, 0.8);
+    line-height: 1.4;
+    font-size: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../surveyform/bg-1\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+
+#title, #description {
+    text-align: center;
+}
+
+p {
+    margin-top: 3px;
+    font-size: 1.125rem;
+    font-style: italic;
+}
+
+h1 {
+    margin-bottom: 5px;
+    
+}
+
+form {
+    background-color: #1b1b32;
+    position: relative;
+    width: 600px;
+    height: 170vh;
+    margin:0 auto;
+    border-radius: 10px;
+}
+
+#survey-form {
+    display: block;
+    text-align: left;
+    padding: 30px;
+}
+
+.form-group {
+    display: block;
+    /* margin: 0 auto 1.25rem auto; */
+    margin: 0 auto 7px auto;
+    padding: 0 10px 0 10px;
+    margin-left: 15px;
+
+}
+
+input {
+    margin-top: 5px;
+}
+
+.clue {
+    font-size: 12px;
+}
+#name, #email, #number {
+    width: 535px;
+    height: 35px;
+    border-radius: 3px;
+    border-width: 0;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+
+select  {
+    width: 540px;
+    height: 35px;
+    border-radius: 3px;
+    border-width: 0;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+textarea {
+    margin-top: 5px;
+    width: 535px;
+    height: 100px;
+
+}
+
+input[type=submit] {
+    width: 540px;
+    height: 35px;
+    border-radius: 2px;
+    border-width: 0;
+    padding: 5px;
+    margin-top: 25px;
+    background-color:  #37af65;
+    color: #f3f3f3;
+    text-align: center;
+
+}
+
+
+input[type="checkbox"],
+input[type="radio"] {
+    border-width: 0;
+    padding: 40px;
+    
+} 
+
